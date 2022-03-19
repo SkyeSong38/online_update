@@ -131,4 +131,6 @@ dmypy.json
 # checkpoints
 *.zip
 *.tar
-*.pth/
+*.pth
+.idea/
+.DS_Store
