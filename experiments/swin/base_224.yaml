@@ -1,0 +1,8 @@
+MODEL:
+  IMAGE_SIZE: 224
+  DROP_PATH_RATE: 0.1
+  SWIN:
+    EMBED_DIM: 128
+    DEPTHS: [ 2, 2, 18, 2 ]
+    NUM_HEADS: [ 4, 8, 16, 32 ]
+    WINDOW_SIZE: 7
